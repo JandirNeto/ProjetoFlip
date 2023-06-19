@@ -1,37 +1,13 @@
-var produtos = [
-    {
-        id: 1,
-        nome: 'Camisa Branca Básica',
-        preco: 'R$89,90',
-        grupo: 'camisa',
-        img: 'camisa_1.jpg'
-    },
-    {
-        id: 2,
-        nome: 'Camisa Branca fodase',
-        preco: 'R$89,90',
-        grupo: 'camisa',
-        img: 'camisa_1.jpg'
-    },
-    {
-        id: 3,
-        nome: 'Camisa Branca calca',
-        preco: 'R$89,90',
-        grupo: 'calca',
-        img: 'camisa_1.jpg'
-    }
-];
-    
-
-
 $(document).ready(function(){
-
+    productsGenerate();
     constructAllProdutos();
 });
 
 function constructAllProdutos(grupoDefined = 'all'){
 
     let html = '';
+
+    produtos = localStorage.getItem('produtos');
 
     produtos.forEach(element => {
 
