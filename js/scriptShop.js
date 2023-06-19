@@ -6,8 +6,7 @@ $(document).ready(function(){
 function constructAllProdutos(grupoDefined = 'all'){
 
     let html = '';
-
-    produtos = localStorage.getItem('produtos');
+    produtos = JSON.parse(localStorage.getItem('produtos'));
 
     produtos.forEach(element => {
 
