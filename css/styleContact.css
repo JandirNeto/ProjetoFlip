@@ -1,0 +1,24 @@
+.contato{
+    font-style: arial;
+    text-align: center;
+    padding: 5%;
+    font-size:90px;
+    color: black;
+    letter-spacing: -3px;
+}
+
+.email{
+    margin-left: 400px;
+    font-size: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 20px;
+    margin-top: 150px;
+    font-style: helvetica;
+}
+.btn:hover{
+    text-decoration: underline;
+}
