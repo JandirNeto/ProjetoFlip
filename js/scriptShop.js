@@ -1,4 +1,3 @@
-load(true);
 
 $(document).ready(function(){
     productsGenerate();
