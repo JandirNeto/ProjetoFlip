@@ -1,3 +1,12 @@
 .list-group-item {
     border: none;
 }
+
+#loading {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    
+} 

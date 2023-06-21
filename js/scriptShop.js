@@ -1,4 +1,7 @@
+load(true);
+
 $(document).ready(function(){
+    load(false);
     productsGenerate();
     constructAllProdutos();
 });
