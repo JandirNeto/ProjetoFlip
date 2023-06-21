@@ -1,11 +1,6 @@
 load(true);
 
 $(document).ready(function(){
-<<<<<<< HEAD
-
-=======
-    load(false);
->>>>>>> ef0fec5c27116e4607acd66d9855e9e17344427e
     productsGenerate();
     constructAllProdutos();
 });

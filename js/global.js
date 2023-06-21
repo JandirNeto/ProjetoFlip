@@ -75,13 +75,3 @@ function productsGenerate(){
 
     localStorage.setItem('produtos', JSON.stringify(produtos));
 }
-    
-function load(status){
-    if (status==true){
-        console.log(status)
-        $('#loading').css("cssText", 'display inline-block !important');
-    }else if(status==false){
-        console.log(status);
-        $('#loading').css("cssText", 'display none !important');
-    }
-}
