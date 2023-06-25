@@ -25,12 +25,17 @@
     }
 </style>
 <body>
-  <nav class="navbar navbar-expand-lg bg-white" >
+  <nav class="container navbar navbar-expand-lg bg-white" >
+    <div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="logo col-md-6 d-flex justify-content-end">
+      <a class="navbar-brand" href="#" id="logo"> <h1><strong><i>FLIP</i></strong></h1></a>
+    </div>
     <div class="container-fluid">
-      <div class="collapse navbar-collapse row" id="navbarNav">
-        <div class="logo col-md-6 d-flex justify-content-end">
-            <a class="navbar-brand" href="#" id="logo"> <h1><strong><i>FLIP</i></strong></h1></a>
-        </div>
+      <div class="collapse navbar-collapse row justify-content-end" id="navbarNav">
         <div class="col-md-6">
             <ul class="navbar-nav d-flex justify-content-end">
               <li class="nav-item mx-3">
@@ -50,32 +55,34 @@
     </div>
   </nav>
   <main>
-    <section class="d-flex justify-content-center">
+    <section class="container d-flex justify-content-center">
         <div class="col-md-10 mt-5">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="../img/camisa_1.jpg" alt="camisa_1">
+                <div class="col-md-6 p-0">
+                    <img style="width: 100%; height: 100%;" src="../img/camisa_1.jpg" alt="camisa_1">
                 </div>
-                <div class="col-md-6 d-flex flex-column justify-content-end">
-                    <div>
-
+                <div class="col-md-6 d-flex flex-column justify-content-end p-0">
+                  <div class="w-100 h-100">
+                    <div id="tituloNomeItem" class="d-flex justify-content-center">
+                      <h4>camisa</h4>
                     </div>
-                    <div class="d-flex">
-                        <div class="col-1 d-flex justify-content-center align-items-center" onclick="$('#numberProductInput').val(parseInt($('#numberProductInput').val()) + 1)">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
-                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
-                            </svg>
-                        </div>
-                        <div class="w-25">
-                            <input type="number" min="0" class="form-control" key value="1" id="numberProductInput" pattern="[1-9]+$">
-                        </div>
-                        <div class="col-1 d-flex justify-content-center align-items-center" onclick="$('#numberProductInput').val($('#numberProductInput').val() - 1 > 1 ? $('#numberProductInput').val() - 1 : 1)">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle" viewBox="0 0 16 16">
-                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
-                            </svg>
-                        </div>
+                  </div>
+                  <div class="d-flex justify-content-center m-3">
+                    <div class="col-1 d-flex justify-content-center align-items-center" onclick="$('#numberProductInput').val(parseInt($('#numberProductInput').val()) + 1)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                        </svg>
+                    </div>
+                    <div class="w-25">
+                        <input type="number" min="0" class="form-control" key value="1" id="numberProductInput" pattern="[1-9]+$">
+                    </div>
+                    <div class="col-1 d-flex justify-content-center align-items-center" onclick="$('#numberProductInput').val($('#numberProductInput').val() - 1 > 1 ? $('#numberProductInput').val() - 1 : 1)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                        </svg>
+                    </div>
                     </div>
                     <div class="d-flex flex-column align-items-center">
                         <div>
