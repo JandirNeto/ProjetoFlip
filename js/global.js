@@ -17,17 +17,17 @@ function productsGenerate(){
         },
         {
             id: 2,
-            nome: 'Camisa Branca fodase',
+            nome: 'Camisa G fodase',
             preco: 'R$89,90',
             grupo: 'camisa',
-            img: 'camisa_1.jpg'
+            img: 'camisa_6.png'
         },
         {
-            id: 2,
+            id: 3,
             nome: 'Camisa Branca fodase',
             preco: 'R$89,90',
             grupo: 'camisa',
-            img: 'camisa_1.jpg'
+            img: 'camisa_2.jpeg'
         },
         {
             id: 2,
