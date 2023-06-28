@@ -72,182 +72,182 @@ function productsGenerate(){
             img: 'camisa_8.jpg'
         },
         {
-            id: 8,
+            id: 9,
             nome: 'Camisa HIGH Purple Letal',
             preco: 'R$139,90',
             grupo: 'camisa',
             img: 'camisa_9.jpg'
         },
         {
-            id: 8,
+            id: 10,
             nome: 'Camisa HIGH Orange',
             preco: 'R$99,90',
             grupo: 'camisa',
             img: 'camisa_10.jpg'
         },
         {
-            id: 8,
+            id: 11,
             nome: 'Camisa HIGH Fazenda',
             preco: 'R$129,90',
             grupo: 'camisa',
             img: 'camisa_11.jpg'
         },
         {
-            id: 8,
+            id: 12,
             nome: 'Camisa HIGH Universal',
             preco: 'R$129,90',
             grupo: 'camisa',
             img: 'camisa_12.jpg'
         },
         {
-            id: 8,
+            id: 13,
             nome: 'Calça TUPODE Jeans Brown',
             preco: 'R$219,90',
             grupo: 'calca',
             img: 'calca_1.jpeg'
         },
         {
-            id: 8,
+            id: 14,
             nome: 'Calça TUPODE Carpinteiro',
             preco: 'R$329,90',
             grupo: 'calca',
             img: 'calca_2.jpeg'
         },
         {
-            id: 8,
+            id: 15,
             nome: 'Calça TUPODE Jeans Bege',
             preco: 'R$209,90',
             grupo: 'calca',
             img: 'calca_3.jpeg'
         },
         {
-            id: 8,
+            id: 16,
             nome: 'Calça VANS Black',
             preco: 'R$324,90',
             grupo: 'calca',
             img: 'calca_4.jpg'
         },
         {
-            id: 8,
+            id: 17,
             nome: 'Calça VANS Jogger',
             preco: 'R$219,90',
             grupo: 'calca',
             img: 'calca_5.jpg'
         },
         {
-            id: 8,
+            id: 18,
             nome: 'Calça Jeans Green',
             preco: 'R$149,90',
             grupo: 'calca',
             img: 'calca_6.jpg'
         },
         {
-            id: 8,
+            id: 19,
             nome: 'Calça Jogger Camuflado',
             preco: 'R$89,90',
             grupo: 'calca',
             img: 'calca_7.jpg'
         },
         {
-            id: 8,
-            nome: 'Calça Moletom GRIZLLY',
+            id: 20,
+            nome: 'Calça Moletom GRIZZLY',
             preco: 'R$209,90',
             grupo: 'calca',
             img: 'calca_8.jpg'
         },
         {
-            id: 11,
+            id: 21,
             nome: 'Boné Diamond Basic',
             preco: 'R$69,90',
             grupo: 'bones',
             img: 'bone_3.jpeg'
         },
         {
-            id: 12,
+            id: 22,
             nome: 'Boné Championship',
             preco: 'R$69,90',
             grupo: 'bones',
             img: 'bone_4.jpeg'
         },
         {
-            id: 13,
+            id: 33,
             nome: 'Boné New Era Black',
             preco: 'R$69,90',
             grupo: 'bones',
             img: 'bone_5.jpeg'
         },
         {
-            id: 14,
+            id: 24,
             nome: 'Boné Charllote Hornets',
             preco: 'R$159,90',
             grupo: 'bones',
             img: 'bone_6.jpeg'
         },
         {
-            id: 15,
+            id: 25,
             nome: 'Boné Blue Basic',
             preco: 'R$69,90',
             grupo: 'bones',
             img: 'bone_7.jpeg'
         },
         {
-            id: 16,
+            id: 26,
             nome: 'Boné New Era',
             preco: 'R$89,90',
             grupo: 'bones',
             img: 'bone_8.jpeg'
         },
         {
-            id: 17,
+            id: 27,
             nome: 'Boné LA Basic',
             preco: 'R$69,90',
             grupo: 'bones',
             img: 'bone_9.jpeg'
         },
         {
-            id: 18,
+            id: 28,
             nome: 'Boné Boston Celtics',
             preco: 'R$129,90',
             grupo: 'bones',
             img: 'bone_10.jpeg'
         },
         {
-            id: 19,
+            id: 29,
             nome: 'Boné Diamond Basic',
             preco: 'R$66,90',
             grupo: 'bones',
             img: 'bone_11.jpeg'
         },
         {
-            id: 20,
+            id: 30,
             nome: 'Boné Diamond Red',
             preco: 'R$79,90',
             grupo: 'bones',
             img: 'bone_12.jpeg'
         },
         {
-            id: 21,
+            id: 31,
             nome: 'Boné Basic Championship',
             preco: 'R$79,90',
             grupo: 'bones',
             img: 'bone_13.jpeg'
         },
         {
-            id: 22,
+            id: 32,
             nome: 'Boné Grizzly',
             preco: 'R$69,90',
             grupo: 'bones',
             img: 'bone_14.jpeg'
         },
         {
-            id: 23,
+            id: 33,
             nome: 'Capuz Irmão do Jorel',
             preco: 'R$89,90',
             grupo: 'bones',
             img: 'bone_15.jpeg'
         },
         {
-            id: 24,
+            id: 34,
             nome: 'Bone Vovó Juju',
             preco: 'R$99,90',
             grupo: 'bones',
