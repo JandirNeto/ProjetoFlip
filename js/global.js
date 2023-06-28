@@ -17,10 +17,10 @@ function productsGenerate(){
         },
         {
             id: 2,
-            nome: 'Camisa G fodase',
-            preco: 'R$89,90',
+            nome: 'Camisa HIGH Flick Blue',
+            preco: 'R$129,90',
             grupo: 'camisa',
-            img: 'camisa_6.png'
+            img: 'camisa_13.jpg'
         },
         {
             id: 3,
@@ -31,127 +31,127 @@ function productsGenerate(){
         },
         {
             id: 4,
-            nome: 'Camisa Branca fodase',
-            preco: 'R$89,90',
+            nome: 'Camisa Santa Cruz Basic',
+            preco: 'R$79,90',
             grupo: 'camisa',
             img: 'camisa_3.jpg'
         },
         {
             id: 5,
-            nome: 'Camisa Branca fodase',
-            preco: 'R$89,90',
+            nome: 'Camisa THRASHER 3D',
+            preco: 'R$109,90',
             grupo: 'camisa',
             img: 'camisa_4.jpg'
         },
         {
             id: 6,
-            nome: 'Camisa Branca fodase',
-            preco: 'R$89,90',
+            nome: 'Camisa VANS White',
+            preco: 'R$79,90',
             grupo: 'camisa',
             img: 'camisa_5.png'
         },
         {
             id: 7,
-            nome: 'Camisa Branca fodase',
-            preco: 'R$89,90',
+            nome: 'Camisa HIGH Flame',
+            preco: 'R$129,90',
             grupo: 'camisa',
             img: 'camisa_6.png'
         },
         {
             id: 8,
-            nome: 'Camisa Branca fodase',
-            preco: 'R$89,90',
+            nome: 'Camisa THRASHER Tropical',
+            preco: 'R$99,90',
             grupo: 'camisa',
             img: 'camisa_7.jpg'
         },
         {
             id: 8,
-            nome: 'Camisa Branca fodase',
+            nome: 'Camisa VANS Gray',
             preco: 'R$89,90',
             grupo: 'camisa',
             img: 'camisa_8.jpg'
         },
         {
             id: 8,
-            nome: 'Camisa Branca fodase',
-            preco: 'R$89,90',
+            nome: 'Camisa HIGH Purple Letal',
+            preco: 'R$139,90',
             grupo: 'camisa',
             img: 'camisa_9.jpg'
         },
         {
             id: 8,
-            nome: 'Camisa Branca fodase',
-            preco: 'R$89,90',
+            nome: 'Camisa HIGH Orange',
+            preco: 'R$99,90',
             grupo: 'camisa',
             img: 'camisa_10.jpg'
         },
         {
             id: 8,
-            nome: 'Camisa Branca fodase',
-            preco: 'R$89,90',
+            nome: 'Camisa HIGH Fazenda',
+            preco: 'R$129,90',
             grupo: 'camisa',
             img: 'camisa_11.jpg'
         },
         {
             id: 8,
-            nome: 'Camisa Branca fodase',
-            preco: 'R$89,90',
+            nome: 'Camisa HIGH Universal',
+            preco: 'R$129,90',
             grupo: 'camisa',
             img: 'camisa_12.jpg'
         },
         {
             id: 8,
-            nome: 'Calça',
-            preco: 'R$89,90',
+            nome: 'Calça TUPODE Jeans Brown',
+            preco: 'R$219,90',
             grupo: 'calca',
             img: 'calca_1.jpeg'
         },
         {
             id: 8,
-            nome: 'Calça',
-            preco: 'R$89,90',
+            nome: 'Calça TUPODE Carpinteiro',
+            preco: 'R$329,90',
             grupo: 'calca',
             img: 'calca_2.jpeg'
         },
         {
             id: 8,
-            nome: 'Calça',
-            preco: 'R$89,90',
+            nome: 'Calça TUPODE Jeans Bege',
+            preco: 'R$209,90',
             grupo: 'calca',
             img: 'calca_3.jpeg'
         },
         {
             id: 8,
-            nome: 'Calça',
-            preco: 'R$89,90',
+            nome: 'Calça VANS Black',
+            preco: 'R$324,90',
             grupo: 'calca',
             img: 'calca_4.jpg'
         },
         {
             id: 8,
-            nome: 'Calça',
-            preco: 'R$89,90',
+            nome: 'Calça VANS Jogger',
+            preco: 'R$219,90',
             grupo: 'calca',
             img: 'calca_5.jpg'
         },
         {
             id: 8,
-            nome: 'Calça',
-            preco: 'R$89,90',
+            nome: 'Calça Jeans Green',
+            preco: 'R$149,90',
             grupo: 'calca',
             img: 'calca_6.jpg'
         },
         {
             id: 8,
-            nome: 'Calça',
+            nome: 'Calça Jogger Camuflado',
             preco: 'R$89,90',
             grupo: 'calca',
             img: 'calca_7.jpg'
         },
         {
             id: 8,
-            nome: 'Calça',
-            preco: 'R$89,90',
+            nome: 'Calça Moletom GRIZLLY',
+            preco: 'R$209,90',
             grupo: 'calca',
             img: 'calca_8.jpg'
         },
