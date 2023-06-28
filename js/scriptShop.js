@@ -15,7 +15,7 @@ function constructAllProdutos(grupoDefined = 'all'){
 
         if(element.grupo == grupoDefined){
 
-            html += '<div id="camisa_'+ element.id +'" class="'+ element.grupo +'card col-md-3 m-2 border border-0" style="width: 18rem;">';
+            html += '<div id="camisa_'+ element.id +'" onclick="acessarItem('+ element.id +')" class="'+ element.grupo +'card col-md-3 m-2 border border-0" style="width: 18rem;">';
             html += '   <img src="../img/'+ element.img +'" class="card-img-top" alt="...">';
             html += '   <div class="card-body">';
             html += '       <div class="d-flex justify-content-center">';
@@ -29,7 +29,7 @@ function constructAllProdutos(grupoDefined = 'all'){
             
         }else if(grupoDefined == 'all'){
 
-            html += '<div id="camisa_'+ element.id +'" class="'+ element.grupo +'card col-md-3 m-2 border border-0" style="width: 18rem;">';
+            html += '<div id="camisa_'+ element.id +'" onclick="acessarItem('+ element.id +')" class="'+ element.grupo +'card col-md-3 m-2 border border-0" style="width: 18rem;">';
             html += '   <img src="../img/'+ element.img +'" class="card-img-top" alt="...">';
             html += '   <div class="card-body">';
             html += '       <div class="d-flex justify-content-center">';
@@ -44,4 +44,18 @@ function constructAllProdutos(grupoDefined = 'all'){
     });
 
     $('#divItens').html(html);
+}
+
+function acessarItem(idItem){
+
+    let produtoSelecionado = '';
+
+    produtos.forEach(element => {
+        if(element.id == idItem){
+            produtoSelecionado = element;
+        }
+    });;
+    console.log(produtoSelecionado);
+    window.location.href = document.location.protocol + '//' + document.location.host + '/html/product.html';
+    localStorage.setItem('produto_selecionado', JSON.stringify(produtoSelecionado));
 }
